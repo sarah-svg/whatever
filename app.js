@@ -10,6 +10,12 @@ const horseSound = document.getElementById('horse-sound');
 catPic.addEventListener('click', () => {
     catSound.play();
 });
+dogPic.addEventListener('click', () => {
+    dogSound.play();
+});
+horsePic.addEventListener('click', () => {
+    horseSound.play();
+});
 
 
 
