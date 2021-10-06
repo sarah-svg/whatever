@@ -9,7 +9,14 @@ const horseSound = document.getElementById('horse-sound');
 // event listeners 
 catPic.addEventListener('click', () => {
     catSound.play();
+    // catPic.style.transform = 'rotate(360deg)';
 });
+
+catPic.addEventListener('click', () => {
+    // catPic.classList.toggle('rotated');
+    catPic.style.transform = 'rotate(360deg)';
+});
+
 dogPic.addEventListener('click', () => {
     dogSound.play();
 });
@@ -18,6 +25,21 @@ horsePic.addEventListener('click', () => {
 });
 
 // keydown event listeners
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'c') {
+        catSound.play();
+    }
+});
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        dogSound.play();
+    }
+});
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'h') {
+        horseSound.play();
+    }
+});
 
 
 

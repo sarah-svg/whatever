@@ -8,23 +8,53 @@ body {
 
 main {
     padding: 30px;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 2rem;
+/*    animation-name: background;
+    animation-duration: 4s;*/
+}
+
+/*@keyframes background {
+    from {background-color: pink;}
+    to {background-color: powderblue;}
+}*/
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #cat-pic {
     height: 250px;
     object-fit: cover;
+    transition: transform 2s ease-in-out;
 }
 
 #dog-pic {
     height: 250px ;
+    padding-left: 30px;
+    padding-right: 30px;
     object-fit: cover;
+    transition: transform 2s ease-in-out;
 }
 
 #horse-pic {
     height: 250px;
     object-fit: cover;
+    transition: transform 2s ease-in-out;
 }
 
+#cat-pic:hover {
+    transform: rotate(360deg);
+}
+#dog-pic:hover {
+    transform: rotate(360deg);
+}
+#horse-pic:hover {
+    transform: rotate(360deg);
+}
 header {
     background-color: #A2D7D2;
     height: 110px;

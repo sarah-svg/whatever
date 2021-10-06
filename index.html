@@ -8,30 +8,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>My App</title>
+    <title>Sam's Animal Farm</title>
 </head>
 
 <body>
     <header>
-        <h1>My App</h1>
+        <h1>Sam's Animal Farm</h1>
         <img src="assets/big-logo.png" />
     </header>
     
     <main>
-        <img src="assets/snarf.jpg" id="cat-pic">
-        <img src="assets/Korra.jpg" id="dog-pic">
-        <img src="assets/bojack.jpg" id="horse-pic">
-
-        <audio src="assets/cat sound.wav" id="cat-sound"></audio>
-        <audio src="assets/dog sound.wav" id="dog-sound"></audio>
-        <audio src="assets/horse sound.wav" id="horse-sound"></audio>
-        <hr>
-        Make a Web App!
-        
+        <div>
+            <img src="assets/snarf.jpg" id="cat-pic" class="rotate">
+            <img src="assets/Korra.jpg" id="dog-pic">
+            <img src="assets/bojack.jpg" id="horse-pic">
+        </div>
+            <audio src="assets/cat sound.wav" id="cat-sound"></audio>
+            <audio src="assets/dog sound.wav" id="dog-sound"></audio>
+            <audio src="assets/horse sound.wav" id="horse-sound"></audio>
+        <br>
+        Click an animal to hear what they say!
+        <br>
+        Or try hitting 'c', 'd', or 'h' if you're feeling wild!
     </main>
+    
+
 
     <footer>
-        &copy; 2021 Alchemy Code Lab
+        &copy; Rattus Quo, LLC
     </footer>
 
     <script type="module" src="./app.js"></script>
