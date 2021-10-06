@@ -10,6 +10,21 @@ main {
     padding: 30px;
 }
 
+#cat-pic {
+    height: 250px;
+    object-fit: cover;
+}
+
+#dog-pic {
+    height: 250px ;
+    object-fit: cover;
+}
+
+#horse-pic {
+    height: 250px;
+    object-fit: cover;
+}
+
 header {
     background-color: #A2D7D2;
     height: 110px;

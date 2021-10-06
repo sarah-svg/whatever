@@ -17,7 +17,7 @@ horsePic.addEventListener('click', () => {
     horseSound.play();
 });
 
-
+// keydown event listeners
 
 
 
