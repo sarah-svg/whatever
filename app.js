@@ -1,3 +1,20 @@
+const catPic = document.getElementById('cat-pic');
+const dogPic = document.getElementById('dog-pic');
+const horsePic = document.getElementById('horse-pic');
+
+const catSound = document.getElementById('cat-sound');
+const dogSound = document.getElementById('dog-sound');
+const horseSound = document.getElementById('horse-sound');
+
+// event listeners 
+catPic.addEventListener('click', () => {
+    catSound.play();
+});
+
+
+
+
+
 // import functions
 
 // reference needed DOM elements
